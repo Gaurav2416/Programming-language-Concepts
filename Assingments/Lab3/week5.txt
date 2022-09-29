@@ -1,0 +1,73 @@
+Hello Everyone,
+ Week Four:
+    We were lacking the backend development learning from week three. So in week four we had lot of work, so we improvised. We divided the group, the candiate who were doing well in backend 
+    development, continued their work and people who were struggling were moved to learn frontend development. This thing worked for us as we divided the work and made a team of two 
+    people. One team member was working on frontend and other was working on backend. This expedited our develpoment and improved team cordination. By the end of week four we were
+    back on our schedule and were ready to collaborate frontend with backend. Both the team member were passing on the knowledege of frontend and back end. The idea behind this was 
+    the candidate who were uncomfortable with backend got to learn something about backend and candidate who were focusing on backend got the experience of team management along with 
+    the frontend learning.
+
+Week Five:
+    All the candidate should have knowledege about deployment of the project so we started with aws deployment. We learned the basics like changing the code for linux server,
+    commands to delpoy and start the server. Intially my plan was to give individual projects, but I changed my plan because of hinderence in week three. Now the candidate 
+    will work in teams, but for overall development the candiate who was comfortable with backend will develop frontend and vise versa. So everyone will have the knowledege of both
+    technologies. Except the project each candiate will appear for assesment, where they will face question about database, node and angular.
+
+Outcome:
+
+Aakash: He got to learn about development, this makes him more confident while speanking about his product with client meeting according to my obeservation. Because of which
+        we already got our first client.He got the experience to manage the team cordinate with the team. 
+
+Me: I have never led a team, so it was great exeprience for me. I learned people management skill and was able to revise the basics of the technologies while working with Aakash.
+
+Candiadte: The interns were exposed to the new technologies. And the project we developed in final week were projects for our new client.
+
+
+
+1. Add Introduction (brief about lend an ear task, what happened in week 3, got our first project, no backend devs so needed employee to learn backend)
+2. Task completed in week 4 (gained backend development skills)
+    2.1 learned backend
+    2.2 exhancghed knowledge of frontend
+    2.3 learned aws and deployment strategies
+    2.4 created dummy project to understand team coordination
+    Due to so many tasks we worked complete week 7 days
+5
+
+Introduction:
+ I was assisting Aakash in starting a web development company for my lend an ear. To demonstrate our work in a customer meeting, we finished a developing prototype. 
+ The prototype was an app that would help with business operations. The prototype would enable you to send reminders regarding pending orders, inventories, and payments that were 
+ past due. We recruited some interns and began training them. We finished the database training in week two, but in week three there were difficulties with learning backend 
+ development, a few candidates were having trouble, and our goal of learning frontend development in week four was postponed hence two-person teams were determined to be formed. 
+ One person will focus on the backend and the other will focus on the frontend.
+
+ Week four progress:
+1. Some candidates kept up their education in backend software, focusing mostly on promises and authentication.
+2. Candidates who were uneasy with backend development were switched to frontend development training.
+3. Candidates collaborated across the frontend and the backend, sharing knowledge about their area of expertise with another team member. 
+    A two-person team was also tasked with creating a prototype to demonstrate their expertise. With a caveat, the applicant who is accustomed to working on the backend will 
+    concentrate on the frontend while receiving assistance from the rest of the team, and vice versa. This makes it easier for them to collaborate with the team.
+4. They also encountered the deployment of AWS.
+5. Aakash's responsibility was to coordinate with possible clients and respond to their questions in order to secure the project.
+
+ Week five progress:
+ 1. Candiates were now going to appear for assesment facing questions about database, backend, frontend.
+ 2. We started learning about software develpoment and tesing startegies via software development lifecycle.
+ 3. Aakash successfully landed the client and completed all the negotiation talks.
+ 4. We started working on develpoment of the project. The project aim was management of application for an institute.
+
+Outcome lend an ear:
+Aakash :
+1. knowledege about the technologies we will be using to develop
+2. Requirement gathering and analysis.
+3. Team management.
+4. Interaction and dealing with the challenges when interacting with client.
+
+Interns :
+1. Learning new technologies.
+2. Concepts of Software developmentlifecycle.
+3. Work under pressure.
+
+Me:
+1. People management skills.
+2. Team management.
+    
