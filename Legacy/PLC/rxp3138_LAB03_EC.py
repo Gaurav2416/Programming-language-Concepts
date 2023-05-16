@@ -1,0 +1,79 @@
+# Name: Richa Pagare
+# Student ID: 1001873138
+# Date: 04/07/2022
+# OS: Windows
+
+import os
+
+# Added an extra operator - Modulo division %. 
+# program that can input an algebraic expression and convert it to RPN.
+def generateRPN(algebraicexp): 
+    st = [] 
+    #Using a dictionaring for storing the precedence order of various operators. 
+    dict= {'+':1, '-':1,'*':2,'/':2,'%':3}
+    RPN = '' 
+    for ch in algebraicexp:
+        # Checking if the character is a digit(not an operator)
+        if ch.isdigit(): 
+            RPN = RPN + ch
+        # Adding the operator '(' to the list
+        elif ch=='(':  
+            st.append('(')
+        # As soon as a closing bracket is ')' found, we start popping until we find the opening bracket or '('.
+        elif ch==')':
+            while st[-1]!= '(':
+                RPN= RPN +st.pop()
+            st.pop()
+        else:
+            # Maintaining the highest precedence order at the top 
+            while len(st)!=0 and st[-1]!='(' and dict[ch]<=dict[st[-1]]: 
+                RPN= RPN+st.pop()
+            st.append(ch)
+    while len(st)!=0:
+        RPN=RPN + st.pop()
+    return RPN
+
+# Getting path of the input file 'input_RPN.txt'
+input_path = os.path.realpath('input_RPN_EC.txt')
+
+# Reading input from text file one by one
+with open(input_path) as input:
+    lines = input.readlines()
+  
+# Using this loop to remove '\n' character from string
+for i in range(len(lines)):
+    lines[i] = lines[i].strip()
+for input in lines:
+    temp = input.split(" ")
+    rp=generateRPN(temp)
+    print("Reverse Polish Notation : "+str(rp))
+    stack = []
+    for ch in rp:
+        # Checking if the character is a digit(not an operator)
+        if ch.isdigit():
+            stack.append(int(ch))
+        else:
+            if ch == '+':
+                var1 = stack.pop()#Popping the first element
+                var2 = stack.pop()#Popping the second element
+                res = var2 + var1# Perform addition and get result
+                stack.append(res)# Push or append the result to stack
+            #Repeating the same process whenever any operator is encountered.
+            elif ch == '-':
+                var1 = stack.pop()
+                var2 = stack.pop()
+                res = var2 - var1
+                stack.append(res)
+            elif ch == '*':
+                var1 = stack.pop()
+                var2 = stack.pop()
+                res = var2 * var1
+                stack.append(res)
+            else:
+                var1 = stack.pop()
+                var2 = stack.pop()
+                res = var2 / var1
+                stack.append(res)
+    print("Result : "+str(stack[0]))
+
+

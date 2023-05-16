@@ -1,0 +1,24 @@
+    
+'''
+def calculateRPN(algebraicexp): 
+    stack = [] 
+    RPN = '' 
+    for ch in algebraicexp:
+        if ch not in operators: 
+            RPN+= ch
+
+        elif ch=='(':  
+            stack.append('(')
+        elif ch==')':
+            while stack[-1]!= '(':
+                RPN+=stack.pop()
+            stack.pop()
+        # If the character is an operator
+        else:
+            while stack and stack[-1]!='(' and precedencedict[ch]<=precedencedict[stack[-1]]:
+                RPN+=stack.pop()
+            stack.append(ch)
+    while stack:
+        RPN+=stack.pop()
+    return RPN
+'''
